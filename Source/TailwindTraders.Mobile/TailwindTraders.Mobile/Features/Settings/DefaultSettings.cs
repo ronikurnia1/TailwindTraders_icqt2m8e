@@ -6,9 +6,9 @@ namespace TailwindTraders.Mobile.Features.Settings
 
         public static string AccessToken = string.Empty;
 
-        public const string AppCenterAndroidSecret = "__ENTER_YOUR_ANDROID_APPCENTER_SECRET_HERE__";
+        public const string AppCenterAndroidSecret = "2bf9b26e-27b1-4a0f-a8f8-e531cdddd361";
 
-        public const string AppCenteriOSSecret = "__ENTER_YOUR_IOS_APPCENTER_SECRET_HERE__";
+        public const string AppCenteriOSSecret = "8c5e3a4e-bbeb-4afe-b277-5cb45704483d";
 
         public const bool UseFakeAPIs = UITestMode || DebugMode;
 
@@ -38,9 +38,9 @@ namespace TailwindTraders.Mobile.Features.Settings
             false;
 #endif
 
-        public static string RootApiUrl { get; set; } = "__ENTER_YOUR_HTTPS_ROOT_API_URL_HERE__";
+        public static string RootApiUrl { get; set; } = "https://mobileapi.com/";
 
         public static string RootWebApiUrl
-        { get; set; } = "__ENTER_YOUR_HTTPS_WEBBFF_ROOT_API_URL_HERE__";
+        { get; set; } = "https://webapi.com/";
     }
 }
